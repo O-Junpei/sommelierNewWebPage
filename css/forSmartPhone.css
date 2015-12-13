@@ -19,45 +19,60 @@ header{
 
 
 #header-in-top{
-  width: 100%;
-  height: 60px;
   margin: 0 auto;
   background-color: #292929;
 }
-/*
+
 #header-in-top-logo{
-  width: 50%;
-  float: left;
+  width: 80%;
+  margin: 0 auto;
 }
 
 #header-in-top-logo h2{
-  padding: 20px 10px 0px 15px;
+  text-align: center;
   margin: 0;
+  padding: 0;
   color: white;
   font-size: 2.2rem;
 }
 
 #header-in-top-logo h4{
-  padding: 0px 0px 0px 20px;
+  text-align: center;
+  padding: 0;
   margin: 0;
   color: white;
   font-size: 1.5rem;
 }
 
+
+
+
 #header-in-top-social{
   background-color: #292929;
-  width: 500px;
-  height: 60px;
-  float: right
+  width: 270px;
+  margin: 0 auto;
 }
 
 #header-in-top-social img{
   height: 30px;
-  margin: 25px 30px 5px 0px;
+  margin: 15px 30px 15px 30px;
   float: right;
 }
 
 
+
+
+#navButton-bottom{
+  margin: 0 auto;
+  height: 5px;
+  background-color: #e7207d;
+}
+
+
+
+
+
+/*
 #header-in-bottom{
   width: 1000px;
   height: 50px;
@@ -102,12 +117,12 @@ header{
   background-color: #e7207d;
 }
 
-
+*/
 .clearfix:after {
   content: "";
   clear: both;
   display: block;
-}*/
+}
 
 /*Contents*/
 /*
@@ -243,3 +258,16 @@ footer{
   font-size: 1.4rem;
 }
 */
+
+
+.forPC{
+  display: none;
+}
+
+.forTablet{
+  display: none;
+}
+
+.forSmartPhone{
+  display: visible;
+}

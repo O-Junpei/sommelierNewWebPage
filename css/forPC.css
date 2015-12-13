@@ -131,7 +131,7 @@ header{
   padding-top: 30px;
   padding-bottom: 10px;
 }
-.Div-in h2>a, a:hover, a:visited, a:link, a:active {
+.Div-in h3>a, a:hover, a:visited, a:link, a:active {
   color: black;
 }
 
@@ -167,6 +167,11 @@ header{
 
 }
 
+
+.Imd-div-in{
+  width: 1000px;
+  margin: 0 auto;
+}
 
 .Div-in-img{
   margin: 5px 20px 10px 20px;
@@ -245,4 +250,12 @@ footer{
 
 .forPC{
   display: visible;
+}
+
+.forTablet{
+  display: none;
+}
+
+.forSmartPhone{
+  display: none;
 }
