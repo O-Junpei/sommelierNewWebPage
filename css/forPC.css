@@ -259,3 +259,7 @@ footer{
 .forSmartPhone{
   display: none;
 }
+
+.forTabletAndSmartPhone{
+  display: none;
+}
