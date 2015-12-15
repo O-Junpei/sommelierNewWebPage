@@ -9,49 +9,74 @@
   <title>ソムリエアンテナ</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/select.css">
+
+  <!-- スクリプト -->
+  <!--IEにお気に入りに追加する-->
+  <script type="text/javascript">
+    function favFanc(){
+      var userAgent = window.navigator.userAgent.toLowerCase();
+      if (userAgent.indexOf('msie') != -1) {
+        window.external.AddFavorite('http://www.erosomm.com/','ソムリエアンテナ')
+      }else {
+        alert("申し訳ありません、ブラウザからお気に入りへの追加をお願いします。");
+      }
+    }
+  </script>
+
+  <!--工事中アラート表示-->
+  <script type="text/javascript">
+    function atWorkFanc(){
+      alert("申し訳ありません、ただいま実装中です。");
+    }
+  </script>
+
+
 </head>
 <body>
 
 
 
   <header>
-
-
-  <div id="smartPhoneNav" class="fprSmartPhone">
-    <p id="nav-open" class="forSmartPhone"><a href="#gNav">MENU</a></p>
-    <nav id="gNav">
-      <ul class="forSmartPhone">
-        <li><a href="">新着</a></li>
-        <li><a href="">ソムリエ</a></li>
-        <li><a href="">サイト別</a></li>
-        <li><a href="">ジャンル</a></li>
-        <li><a href="">リンク</a></li>
-        <li><a href="">お問合せ</a></li>
-      </ul>
-      <div id="nav-close" class="forSmartPhone"><a href="#">CLOSE</a></div>
-    </nav>
-  </div>
-
-
+  <!--スマホ用ナビゲーションバー-->
+    <div id="smartPhoneNav" class="fprSmartPhone">
+      <p id="nav-open" class="forSmartPhone"><a href="#gNav">MENU</a></p>
+      <nav id="gNav">
+        <ul class="forSmartPhone">
+          <li><a href="">新着</a></li>
+          <li><a href="javascript:atWorkFanc()">ソムリエ</a></li>
+          <li><a href="javascript:atWorkFanc()">サイト別</a></li>
+          <li><a href="javascript:atWorkFanc()">ジャンル</a></li>
+          <li><a href="javascript:atWorkFanc()">リンク</a></li>
+          <li><a href="javascript:atWorkFanc()">お問合せ</a></li>
+        </ul>
+        <div id="nav-close" class="forSmartPhone"><a href="#">CLOSE</a></div>
+      </nav>
+    </div>
 
 
 
     <div id="header-in-top">
+
       <div id="header-in-top-logo">
         <h2><strong>ソムリエアンテナ</strong></h2>
         <h4>-Sommlier Antena-</h3>
       </div>
+
       <div id="header-in-top-social" class="clearfix">
-        <a href="http://twitter.com/share?url=http://www.erosomm.com/&text=あなたにソムリエ、ソムリエアンテナ。&related=ツイート後に表示されるユーザー&hashtags=ソムリエアンテナ">
-          <img src="image/twitter_ico.png">
+        <a href="http://line.naver.jp/R/msg/text/?あなたにソムリエ、ソムリエアンテナ" class="forTabletAndSmartPhone">
+          <img src="image/line_ico.png">
         </a>
-        <a href="http://twitter.com/share?url=http://www.erosomm.com/&text=あなたにソムリエ、ソムリエアンテナ。&related=ツイート後に表示されるユーザー&hashtags=ソムリエアンテナ">
-          <img src="image/twitter_ico.png">
+        <a href="javascript:favFanc()" class="forPC">
+          <img src="image/fav_ico.png">
+        </a>
+        <a href="mailto:?subject=ソムリエアンテナ&amp;body=http://www.erosomm.com/">
+          <img src="image/icon_mail.png">
         </a>
         <a href="http://twitter.com/share?url=http://www.erosomm.com/&text=あなたにソムリエ、ソムリエアンテナ。&related=ツイート後に表示されるユーザー&hashtags=ソムリエアンテナ">
           <img src="image/twitter_ico.png">
         </a>
       </div>
+
     </div>
 
     <!-- パソコン用のナビゲーションバー-->
@@ -309,11 +334,11 @@
       <!--Tablet用フッター-->
       <div class="forTabletAndSmartPhone tabletFooter clearfix">
           <div class="footer-nav"><a href=""><p>新着</p></a></div>
-          <div class="footer-nav"><a href=""><p>ソムリエ</p></a></div>
-          <div class="footer-nav"><a href=""><p>サイト別</p></a></div>
-          <div class="footer-nav"><a href=""><p>ジャンル</p></a></div>
-          <div class="footer-nav"><a href=""><p>リンク</p></a></div>
-          <div class="footer-nav"><a href=""><p>お問合せ</p></a></div>
+          <div class="footer-nav"><a href="javascript:atWorkFanc()"><p>ソムリエ</p></a></div>
+          <div class="footer-nav"><a href="javascript:atWorkFanc()"><p>サイト別</p></a></div>
+          <div class="footer-nav"><a href="javascript:atWorkFanc()"><p>ジャンル</p></a></div>
+          <div class="footer-nav"><a href="javascript:atWorkFanc()"><p>リンク</p></a></div>
+          <div class="footer-nav"><a href="javascript:atWorkFanc()"><p>お問合せ</p></a></div>
       </div>
 
 
