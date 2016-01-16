@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+
+/*Contents*/
+.grayDiv{
+  background-color: #f3f3f3;
+}
+
+.whiteDiv{
+  background-color: white;
+}
+
+.Div-in{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.Div-in h3{
+  margin: 0;
+  border-bottom: solid;
+  font-size: 2.0rem;
+  padding-left: 10px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.Div-in h4{
+  margin: 0;
+  font-size: 2.0rem;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.Div-in h4>a, a:hover, a:visited, a:link, a:active {
+  color: black;
+  text-decoration: none;
+}
+
+

@@ -1,0 +1,5 @@
+@charset "UTF-8";
+
+@import url(linkForPC.css) screen and (min-width: 1000px);
+@import url(linkForTablet.css) screen and (min-width: 500px) and (max-width: 1000px);
+@import url(linkForSmartPhone.css) screen and (max-width: 500px);

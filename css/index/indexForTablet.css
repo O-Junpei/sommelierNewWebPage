@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+
+.grayDiv{
+  background-color: #f3f3f3;
+}
+
+.whiteDiv{
+  background-color: white;
+}
+
+.Div-in{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.Div-in h3{
+  margin: 0;
+  border-bottom: solid;
+  font-size: 2.0rem;
+  padding: 10px 0 3px 10px;
+
+}
+.Div-in h3>a, a:hover, a:visited, a:link, a:active {
+  color: black;
+}
+
+
+.Div-in ul{
+  list-style: none;
+  margin: 0;
+  padding: 0 0 20px 0;
+}
+
+.Div-in li{
+  border-bottom:#000000 1px dotted;
+}
+
+.Div-in li p{
+  margin: 5px 20px 5px 20px;
+  padding: 0;
+  font-size: 1.6rem;
+}
+
+.date{
+  font-size: 1.2rem;
+  padding-top: 8px;
+}
+
+.title{
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+
+.Imd-div-in{
+  width: 500px;
+  background-color: red;
+  margin: 0 auto;
+}
+
+.Div-in-img{
+  margin: 5px 20px 10px 20px;
+  width: 210px;
+  height: 300px;
+  background-color: #cccccc;
+  float: left;
+  border-radius: 3px;
+}
+
+.Div-in-img p{
+  width: 200px;
+  height: 50px;
+  margin: 5px;
+  font-size: 1.4rem;
+  padding: 0;
+  margin: 4px;
+}
+
+.img-in-div{
+  height: 220px;
+  width: 200px;
+  padding: 0;
+  margin: 5px 5px 0px 5px;
+}
+
