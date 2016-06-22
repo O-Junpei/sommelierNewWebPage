@@ -1,0 +1,5 @@
+@charset "UTF-8";
+
+@import url(imageListForPC.css) screen and (min-width: 1000px);
+@import url(imageListForTablet.css) screen and (min-width: 500px) and (max-width: 1000px);
+@import url(imageListForSmartPhone.css) screen and (max-width: 500px);

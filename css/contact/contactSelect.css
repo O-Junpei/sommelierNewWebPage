@@ -1,5 +1,0 @@
-@charset "UTF-8";
-
-@import url(contactForPC.css) screen and (min-width: 1000px);
-@import url(contactForTablet.css) screen and (min-width: 500px) and (max-width: 1000px);
-@import url(contactForSmartPhone.css) screen and (max-width: 500px);
